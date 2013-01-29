@@ -1,0 +1,25 @@
+<head>
+<title>Audio Stream Test</title>
+<script type="text/javascript">
+
+function playStream() {
+  try {
+    var myaudio = new Audio('http://stream.radioq.de:8000/gross.mp3');
+    myaudio.id = 'playerMyAdio';
+    myaudio.play();
+  } catch (e) {
+    alert('no audio support!');
+  } 
+}
+
+</script>
+</head>
+<body>
+
+
+
+
+<button onclick="playStream()">Listen Live</button>
+
+
+</body>
