@@ -1,630 +1,0 @@
-TradioQ
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Info.plist radioQ/radioQ-Info.plist
-cPhaseScriptExecution "Touch www folder" /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Script-304B58A110DAC018002A0835.sh
-cCpResource www DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/www
-cCpResource /Users/kall/Documents/CordovaLib/VERSION DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/VERSION
-cCopyPlistFile /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Cordova.plist radioQ/Resources/../Cordova.plist
-cCpResource radioQ/Resources/icons/icon-72.png DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/icon-72.png
-cCpResource radioQ/Resources/icons/icon.png DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/icon.png
-cCpResource radioQ/Resources/icons/icon@2x.png DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/icon@2x.png
-cCpResource radioQ/Resources/Capture.bundle DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Capture.bundle
-cCopyStringsFile /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/en.lproj/Localizable.strings radioQ/Resources/en.lproj/Localizable.strings
-cCopyStringsFile /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/es.lproj/Localizable.strings radioQ/Resources/es.lproj/Localizable.strings
-cCompileXIB /Users/kall/Documents/radioQ/project/radioQ/Classes/MainViewController.xib
-cCopyStringsFile /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/de.lproj/Localizable.strings radioQ/Resources/de.lproj/Localizable.strings
-cCopyStringsFile /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/se.lproj/Localizable.strings radioQ/Resources/se.lproj/Localizable.strings
-cCpResource radioQ/Resources/splash/Default-Landscape@2x~ipad.png DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Landscape@2x~ipad.png
-cCpResource radioQ/Resources/splash/Default-Landscape~ipad.png DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Landscape~ipad.png
-cCpResource radioQ/Resources/splash/Default-Portrait@2x~ipad.png DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Portrait@2x~ipad.png
-cCpResource radioQ/Resources/splash/Default-Portrait~ipad.png DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Portrait~ipad.png
-cCpResource radioQ/Resources/splash/Default@2x~iphone.png DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default@2x~iphone.png
-cCpResource radioQ/Resources/splash/Default~iphone.png DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default~iphone.png
-cProcessPCH /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/PrecompiledHeaders/radioQ-Prefix-bouowjabtmqczadhnngowrqsilxu/radioQ-Prefix.pch.pth radioQ/radioQ-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/AppDelegate.o /Users/kall/Documents/radioQ/project/radioQ/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/main.o /Users/kall/Documents/radioQ/project/radioQ/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/MainViewController.o /Users/kall/Documents/radioQ/project/radioQ/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/radioQ normal i386
-cGenerateDSYMFile /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app.dSYM /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/radioQ
-cTouch /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
-c000000004F453DF80000000000000110
-t1329937912
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-c00000000502AC2330000000000182900
-t1344979507
-s1583360
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
-c00000000502AC2310000000000095860
-t1344979505
-s612448
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
-c00000000502AC2320000000000169880
-t1344979506
-s1480832
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c00000000502AC23300000000002FDC30
-t1344979507
-s3136560
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-c00000000502AC23400000000002051E0
-t1344979508
-s2118112
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c00000000502AC2340000000000244490
-t1344979508
-s2376848
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c00000000502AC2350000000000089510
-t1344979509
-s562448
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
-c00000000502AC2350000000000069670
-t1344979509
-s431728
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000502AC2380000000000353830
-t1344979512
-s3487792
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
-c00000000502AC2400000000000243A90
-t1344979520
-s2374288
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
-c00000000502AC24000000000000998D0
-t1344979520
-s628944
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c00000000502AC24100000000001AB190
-t1344979521
-s1749392
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
-c00000000502AC241000000000006C8A0
-t1344979521
-s444576
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c00000000502AC2460000000000905E40
-t1344979526
-s9461312
-
-N/Users/kall/Documents/CordovaLib/VERSION
-c0000000050089EE90000000000000005
-t1342742249
-s5
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/PrecompiledHeaders/radioQ-Prefix-bouowjabtmqczadhnngowrqsilxu/radioQ-Prefix.pch.pth
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/AppDelegate.o
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/MainViewController.o
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/main.o
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/radioQ.LinkFileList
-c00000000504C871800000000000001DA
-t1347192600
-s474
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Script-304B58A110DAC018002A0835.sh
-c00000000504C87180000000000000027
-t1347192600
-s39
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/libCordova.a
-c00000000504C8718000000000027BF48
-t1347192600
-s2604872
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app.dSYM
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Capture.bundle
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Cordova.plist
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Landscape@2x~ipad.png
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Landscape~ipad.png
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Portrait@2x~ipad.png
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Portrait~ipad.png
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default@2x~iphone.png
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default~iphone.png
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Info.plist
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/MainViewController.nib
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/PkgInfo
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/VERSION
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/de.lproj/Localizable.strings
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/en.lproj/Localizable.strings
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/es.lproj/Localizable.strings
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/icon-72.png
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/icon.png
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/icon@2x.png
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/radioQ
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/se.lproj/Localizable.strings
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/www
-t2
-s0
-
-N/Users/kall/Documents/radioQ/project/radioQ/Classes/AppDelegate.m
-c00000000504C8695000000000000132C
-t1347192469
-s4908
-
-N/Users/kall/Documents/radioQ/project/radioQ/Classes/MainViewController.m
-c00000000504C86950000000000000FFD
-t1347192469
-s4093
-
-N/Users/kall/Documents/radioQ/project/radioQ/Classes/MainViewController.xib
-c00000000504C86950000000000001759
-t1347192469
-s5977
-
-N/Users/kall/Documents/radioQ/project/radioQ/Resources/../Cordova.plist
-c00000000504C8695000000000000094C
-t1347192469
-s2380
-
-N/Users/kall/Documents/radioQ/project/radioQ/Resources/Capture.bundle
-c00000000504C869500000000000002EC
-t1347192469
-s748
-
-N/Users/kall/Documents/radioQ/project/radioQ/Resources/de.lproj/Localizable.strings
-c00000000504C86950000000000000485
-t1347192469
-s1157
-
-N/Users/kall/Documents/radioQ/project/radioQ/Resources/en.lproj/Localizable.strings
-c00000000504C86950000000000000470
-t1347192469
-s1136
-
-N/Users/kall/Documents/radioQ/project/radioQ/Resources/es.lproj/Localizable.strings
-c00000000504C8695000000000000047D
-t1347192469
-s1149
-
-N/Users/kall/Documents/radioQ/project/radioQ/Resources/icons/icon-72.png
-c00000000504C86950000000000001350
-t1347192469
-s4944
-
-N/Users/kall/Documents/radioQ/project/radioQ/Resources/icons/icon.png
-c00000000504C86950000000000000F3E
-t1347192469
-s3902
-
-N/Users/kall/Documents/radioQ/project/radioQ/Resources/icons/icon@2x.png
-c00000000504C86950000000000001EBD
-t1347192469
-s7869
-
-N/Users/kall/Documents/radioQ/project/radioQ/Resources/se.lproj/Localizable.strings
-c00000000504C86950000000000000471
-t1347192469
-s1137
-
-N/Users/kall/Documents/radioQ/project/radioQ/Resources/splash/Default-Landscape@2x~ipad.png
-c00000000504C86950000000000176888
-t1347192469
-s1534088
-
-N/Users/kall/Documents/radioQ/project/radioQ/Resources/splash/Default-Landscape~ipad.png
-c00000000504C869500000000000674B7
-t1347192469
-s423095
-
-N/Users/kall/Documents/radioQ/project/radioQ/Resources/splash/Default-Portrait@2x~ipad.png
-c00000000504C869500000000001892C2
-t1347192469
-s1610434
-
-N/Users/kall/Documents/radioQ/project/radioQ/Resources/splash/Default-Portrait~ipad.png
-c00000000504C86950000000000066F23
-t1347192469
-s421667
-
-N/Users/kall/Documents/radioQ/project/radioQ/Resources/splash/Default@2x~iphone.png
-c00000000504C86950000000000055981
-t1347192469
-s350593
-
-N/Users/kall/Documents/radioQ/project/radioQ/Resources/splash/Default~iphone.png
-c00000000504C86950000000000016EC9
-t1347192469
-s93897
-
-N/Users/kall/Documents/radioQ/project/radioQ/main.m
-c00000000504C8695000000000000048F
-t1347192469
-s1167
-
-N/Users/kall/Documents/radioQ/project/radioQ/radioQ-Prefix.pch
-c00000000504C869500000000000003BD
-t1347192469
-s957
-
-N/Users/kall/Documents/radioQ/project/www
-c00000000504C86950000000000000176
-t1347192469
-s374
-
-NradioQ/radioQ-Info.plist
-c00000000504C869500000000000009C4
-t1347192469
-s2500
-
-CBuild AST from /Users/kall/Documents/radioQ/project/radioQ/Classes/AppDelegate.m
-r0
-
-CBuild AST from /Users/kall/Documents/radioQ/project/radioQ/Classes/MainViewController.m
-r0
-
-CBuild AST from /Users/kall/Documents/radioQ/project/radioQ/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb136f698befcb541^61dffa98befcb541^---0#1#0#--18"Check dependencies36"90878F54-85E7-4BE9-98CF-38F9EF0BD579-
-
-CCompileC DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/AppDelegate.o /Users/kall/Documents/radioQ/project/radioQ/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s368885410.198596
-e368885410.486190
-r1
-xCompileC
-xDerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/AppDelegate.o
-x/Users/kall/Documents/radioQ/project/radioQ/Classes/AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/kall/Documents/radioQ/project/radioQ/Classes/AppDelegate.m:77:25: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]
-o    self.viewController.invokeString = invokeString;
-o                        ^
-o1 warning generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/kall/Documents/radioQ/project/radioQ/Classes/AppDelegate.m320133a2befcb541^a3947ca2befcb541^-239"/Users/kall/Documents/radioQ/project/radioQ/Classes/AppDelegate.m:77:25: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]    self.viewController.invokeString = invokeString;                        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@28"'invokeString' is deprecated-368885410#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@81"file://localhost/Users/kall/Documents/radioQ/project/radioQ/Classes/AppDelegate.m0000000000000000^76#24#76#24#2537#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@81"file://localhost/Users/kall/Documents/radioQ/project/radioQ/Classes/AppDelegate.m0000000000000000^3986"CompileC DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/AppDelegate.o radioQ/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kall/Documents/radioQ/project    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/radioQ-generated-files.hmap -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/radioQ-own-target-headers.hmap -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/radioQ-all-target-headers.hmap -iquote /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/radioQ-project-headers.hmap -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/include -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/usr/local/lib/include -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/UninstalledProducts/include -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/DerivedSources/i386 -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/DerivedSources -F/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator -include /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/PrecompiledHeaders/radioQ-Prefix-bouowjabtmqczadhnngowrqsilxu/radioQ-Prefix.pch -MMD -MT dependencies -MF /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/AppDelegate.dia -c /Users/kall/Documents/radioQ/project/radioQ/Classes/AppDelegate.m -o /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/AppDelegate.o36"1A803D9E-F1B1-4562-885F-C1470387C9DF-
-
-CCompileC DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/MainViewController.o /Users/kall/Documents/radioQ/project/radioQ/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s368885410.332640
-e368885410.488368
-r1
-xCompileC
-xDerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/MainViewController.o
-x/Users/kall/Documents/radioQ/project/radioQ/Classes/MainViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/kall/Documents/radioQ/project/radioQ/Classes/MainViewController.m:108:15: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]
-o     if (self.invokeString)
-o              ^
-o/Users/kall/Documents/radioQ/project/radioQ/Classes/MainViewController.m:112:93: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]
-o        NSString* jsString = [NSString stringWithFormat:@"var invokeString = \"%@\";", self.invokeString];
-o                                                                                            ^
-o2 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/kall/Documents/radioQ/project/radioQ/Classes/MainViewController.mdd5f55a2befcb541^4f047da2befcb541^-561"/Users/kall/Documents/radioQ/project/radioQ/Classes/MainViewController.m:108:15: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]     if (self.invokeString)              ^/Users/kall/Documents/radioQ/project/radioQ/Classes/MainViewController.m:112:93: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]        NSString* jsString = [NSString stringWithFormat:@"var invokeString = \"%@\";", self.invokeString];                                                                                            ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@28"'invokeString' is deprecated-368885410#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@88"file://localhost/Users/kall/Documents/radioQ/project/radioQ/Classes/MainViewController.m0000000000000000^107#14#107#14#2850#0#12"Deprecations--2@28"'invokeString' is deprecated-368885410#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/kall/Documents/radioQ/project/radioQ/Classes/MainViewController.m0000000000000000^111#92#111#92#3260#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@88"file://localhost/Users/kall/Documents/radioQ/project/radioQ/Classes/MainViewController.m0000000000000000^4028"CompileC DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/MainViewController.o radioQ/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kall/Documents/radioQ/project    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/radioQ-generated-files.hmap -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/radioQ-own-target-headers.hmap -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/radioQ-all-target-headers.hmap -iquote /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/radioQ-project-headers.hmap -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/include -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/usr/local/lib/include -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/UninstalledProducts/include -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/DerivedSources/i386 -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/DerivedSources -F/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator -include /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/PrecompiledHeaders/radioQ-Prefix-bouowjabtmqczadhnngowrqsilxu/radioQ-Prefix.pch -MMD -MT dependencies -MF /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/MainViewController.dia -c /Users/kall/Documents/radioQ/project/radioQ/Classes/MainViewController.m -o /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/MainViewController.o36"6D434ED9-AA36-4BEA-A9A3-CC1C7464891D-
-
-CCompileC DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/main.o /Users/kall/Documents/radioQ/project/radioQ/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s368885410.198601
-e368885410.329131
-r1
-xCompileC
-xDerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/main.o
-x/Users/kall/Documents/radioQ/project/radioQ/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/kall/Documents/radioQ/project/radioQ/main.m110133a2befcb541^494c54a2befcb541^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/kall/Documents/radioQ/project/radioQ/main.m0000000000000000^3928"CompileC DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/main.o radioQ/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kall/Documents/radioQ/project    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/radioQ-generated-files.hmap -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/radioQ-own-target-headers.hmap -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/radioQ-all-target-headers.hmap -iquote /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/radioQ-project-headers.hmap -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/include -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/usr/local/lib/include -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/UninstalledProducts/include -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/DerivedSources/i386 -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/DerivedSources -F/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator -include /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/PrecompiledHeaders/radioQ-Prefix-bouowjabtmqczadhnngowrqsilxu/radioQ-Prefix.pch -MMD -MT dependencies -MF /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/main.dia -c /Users/kall/Documents/radioQ/project/radioQ/main.m -o /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/main.o36"E62DD877-F1CD-4586-A2ED-D9C9487893F0-
-
-CCompileXIB /Users/kall/Documents/radioQ/project/radioQ/Classes/MainViewController.xib
-s368885401.839964
-e368885402.179280
-r1
-xCompileXIB
-x/Users/kall/Documents/radioQ/project/radioQ/Classes/MainViewController.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compiling /Users/kall/Documents/radioQ/project/radioQ/Classes/MainViewController.xib4b22d799befcb541^aef52d9abefcb541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/kall/Documents/radioQ/project/radioQ/Classes/MainViewController.xib0000000000000000^996"CompileXIB radioQ/Classes/MainViewController.xib    cd /Users/kall/Documents/radioQ/project    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/MainViewController.nib /Users/kall/Documents/radioQ/project/radioQ/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"B8D761F0-8405-4DD4-951E-76337B25F8A3-
-
-CCopyPlistFile /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Cordova.plist radioQ/Resources/../Cordova.plist
-s368885401.538736
-e368885401.559110
-r1
-xCopyPlistFile
-x/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Cordova.plist
-xradioQ/Resources/../Cordova.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy radioQ/Resources/../Cordova.plist6c048a99befcb541^59328f99befcb541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/kall/Documents/radioQ/project/radioQ/Resources/../Cordova.plist0000000000000000^620"CopyPlistFile DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Cordova.plist radioQ/Resources/../Cordova.plist    cd /Users/kall/Documents/radioQ/project    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copyPlist --convert binary1 --outdir /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app -- radioQ/Resources/../Cordova.plist36"9F376CF5-15F8-4930-BA6B-4894F80CEADB-
-
-CCopyStringsFile /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/de.lproj/Localizable.strings radioQ/Resources/de.lproj/Localizable.strings
-s368885402.180559
-e368885402.215551
-r1
-xCopyStringsFile
-x/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/de.lproj/Localizable.strings
-xradioQ/Resources/de.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy radioQ/Resources/de.lproj/Localizable.strings37522e9abefcb541^4b39379abefcb541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/kall/Documents/radioQ/project/radioQ/Resources/de.lproj/Localizable.strings0000000000000000^711"CopyStringsFile DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/de.lproj/Localizable.strings radioQ/Resources/de.lproj/Localizable.strings    cd /Users/kall/Documents/radioQ/project    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/de.lproj -- radioQ/Resources/de.lproj/Localizable.strings36"226FB0C1-EA1B-42E8-AB7B-513DFDA9178E-
-
-CCopyStringsFile /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/en.lproj/Localizable.strings radioQ/Resources/en.lproj/Localizable.strings
-s368885401.800084
-e368885401.820637
-r1
-xCopyStringsFile
-x/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/en.lproj/Localizable.strings
-xradioQ/Resources/en.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy radioQ/Resources/en.lproj/Localizable.strings67efcc99befcb541^e816d299befcb541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/kall/Documents/radioQ/project/radioQ/Resources/en.lproj/Localizable.strings0000000000000000^711"CopyStringsFile DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/en.lproj/Localizable.strings radioQ/Resources/en.lproj/Localizable.strings    cd /Users/kall/Documents/radioQ/project    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/en.lproj -- radioQ/Resources/en.lproj/Localizable.strings36"E661577B-7A90-48C9-A0D2-95D047570D07-
-
-CCopyStringsFile /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/es.lproj/Localizable.strings radioQ/Resources/es.lproj/Localizable.strings
-s368885401.822113
-e368885401.838693
-r1
-xCopyStringsFile
-x/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/es.lproj/Localizable.strings
-xradioQ/Resources/es.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy radioQ/Resources/es.lproj/Localizable.stringsda8dd299befcb541^2ac9d699befcb541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/kall/Documents/radioQ/project/radioQ/Resources/es.lproj/Localizable.strings0000000000000000^711"CopyStringsFile DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/es.lproj/Localizable.strings radioQ/Resources/es.lproj/Localizable.strings    cd /Users/kall/Documents/radioQ/project    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/es.lproj -- radioQ/Resources/es.lproj/Localizable.strings36"0285102C-8238-4212-8DCC-90F616E6F67F-
-
-CCopyStringsFile /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/se.lproj/Localizable.strings radioQ/Resources/se.lproj/Localizable.strings
-s368885402.181137
-e368885402.215852
-r1
-xCopyStringsFile
-x/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/se.lproj/Localizable.strings
-xradioQ/Resources/se.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy radioQ/Resources/se.lproj/Localizable.strings58712e9abefcb541^0a48379abefcb541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/kall/Documents/radioQ/project/radioQ/Resources/se.lproj/Localizable.strings0000000000000000^711"CopyStringsFile DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/se.lproj/Localizable.strings radioQ/Resources/se.lproj/Localizable.strings    cd /Users/kall/Documents/radioQ/project    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/se.lproj -- radioQ/Resources/se.lproj/Localizable.strings36"74136533-869C-4961-AA85-6E3DE7F4DF5B-
-
-CCpResource /Users/kall/Documents/CordovaLib/VERSION DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/VERSION
-s368885401.511246
-e368885401.537376
-r1
-xCpResource
-x/Users/kall/Documents/CordovaLib/VERSION
-xDerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/VERSION
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/VERSIONf9f68299befcb541^1d938999befcb541^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/VERSION000000000080d041^685"CpResource /Users/kall/Documents/CordovaLib/VERSION DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/VERSION    cd /Users/kall/Documents/radioQ/project    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kall/Documents/CordovaLib/VERSION /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app36"D03E13FF-B95D-46E2-BF85-A49AE98395C8-
-
-CCpResource radioQ/Resources/Capture.bundle DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Capture.bundle
-s368885401.634396
-e368885401.798792
-r1
-xCpResource
-xradioQ/Resources/Capture.bundle
-xDerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Capture.bundle
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Copy DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Capture.bundle508aa299befcb541^c98fcc99befcb541^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Capture.bundle000000000080d041^711"CpResource radioQ/Resources/Capture.bundle DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Capture.bundle    cd /Users/kall/Documents/radioQ/project    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kall/Documents/radioQ/project/radioQ/Resources/Capture.bundle /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app36"2CEE7E11-40D9-4DE6-9F17-3C18B1316D16-
-
-CCpResource radioQ/Resources/icons/icon-72.png DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/icon-72.png
-s368885401.560416
-e368885401.605062
-r1
-xCpResource
-xradioQ/Resources/icons/icon-72.png
-xDerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/icon-72.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/icon-72.png00908f99befcb541^c9e69a99befcb541^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/icon-72.png000000000080d041^714"CpResource radioQ/Resources/icons/icon-72.png DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/icon-72.png    cd /Users/kall/Documents/radioQ/project    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kall/Documents/radioQ/project/radioQ/Resources/icons/icon-72.png /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app36"EA344770-6B25-43A8-8F4A-237415809FA6-
-
-CCpResource radioQ/Resources/icons/icon.png DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/icon.png
-s368885401.606434
-e368885401.627452
-r1
-xCpResource
-xradioQ/Resources/icons/icon.png
-xDerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/icon.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/icon.png7d5c9b99befcb541^86aea099befcb541^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/icon.png000000000080d041^705"CpResource radioQ/Resources/icons/icon.png DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/icon.png    cd /Users/kall/Documents/radioQ/project    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kall/Documents/radioQ/project/radioQ/Resources/icons/icon.png /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app36"BE23152E-9E2B-41E2-B9E8-4D9A31E139E6-
-
-CCpResource radioQ/Resources/icons/icon@2x.png DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/icon@2x.png
-s368885401.628749
-e368885401.633102
-r1
-xCpResource
-xradioQ/Resources/icons/icon@2x.png
-xDerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/icon@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/icon@2x.png990ea199befcb541^1215a299befcb541^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/icon@2x.png000000000080d041^720"CpResource "radioQ/Resources/icons/icon@2x.png" "DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/icon@2x.png"    cd /Users/kall/Documents/radioQ/project    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kall/Documents/radioQ/project/radioQ/Resources/icons/icon@2x.png" /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app36"EF75ADC1-B6C1-4833-93A3-3FFFD89798E5-
-
-CCpResource radioQ/Resources/splash/Default-Landscape@2x~ipad.png DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Landscape@2x~ipad.png
-s368885402.216828
-e368885402.556540
-r1
-xCpResource
-xradioQ/Resources/splash/Default-Landscape@2x~ipad.png
-xDerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Landscape@2x~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Landscape@2x~ipad.pnga299379abefcb541^4e7f8e9abefcb541^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Landscape@2x~ipad.png000000000080d041^776"CpResource "radioQ/Resources/splash/Default-Landscape@2x~ipad.png" "DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Landscape@2x~ipad.png"    cd /Users/kall/Documents/radioQ/project    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kall/Documents/radioQ/project/radioQ/Resources/splash/Default-Landscape@2x~ipad.png" /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app36"8B233EC1-5D91-4BAC-BB00-7D70CF3C6E71-
-
-CCpResource radioQ/Resources/splash/Default-Landscape~ipad.png DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Landscape~ipad.png
-s368885402.217383
-e368885402.505120
-r1
-xCpResource
-xradioQ/Resources/splash/Default-Landscape~ipad.png
-xDerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Landscape~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Landscape~ipad.pngbaba379abefcb541^db50819abefcb541^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Landscape~ipad.png000000000080d041^767"CpResource "radioQ/Resources/splash/Default-Landscape~ipad.png" "DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Landscape~ipad.png"    cd /Users/kall/Documents/radioQ/project    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kall/Documents/radioQ/project/radioQ/Resources/splash/Default-Landscape~ipad.png" /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app36"6FF880F0-171A-495A-B8A2-0AC92CD6FF39-
-
-CCpResource radioQ/Resources/splash/Default-Portrait@2x~ipad.png DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Portrait@2x~ipad.png
-s368885402.506582
-e368885402.600013
-r1
-xCpResource
-xradioQ/Resources/splash/Default-Portrait@2x~ipad.png
-xDerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Portrait@2x~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Portrait@2x~ipad.pngb8c8819abefcb541^58ac999abefcb541^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Portrait@2x~ipad.png000000000080d041^773"CpResource "radioQ/Resources/splash/Default-Portrait@2x~ipad.png" "DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Portrait@2x~ipad.png"    cd /Users/kall/Documents/radioQ/project    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kall/Documents/radioQ/project/radioQ/Resources/splash/Default-Portrait@2x~ipad.png" /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app36"823CE4D2-C3DE-4D9E-A25B-BE6FAFDAAB68-
-
-CCpResource radioQ/Resources/splash/Default-Portrait~ipad.png DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Portrait~ipad.png
-s368885402.557902
-e368885402.586869
-r1
-xCpResource
-xradioQ/Resources/splash/Default-Portrait~ipad.png
-xDerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Portrait~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Copy DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Portrait~ipad.pngb3eb8e9abefcb541^a33d969abefcb541^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Portrait~ipad.png000000000080d041^764"CpResource "radioQ/Resources/splash/Default-Portrait~ipad.png" "DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default-Portrait~ipad.png"    cd /Users/kall/Documents/radioQ/project    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kall/Documents/radioQ/project/radioQ/Resources/splash/Default-Portrait~ipad.png" /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app36"81A2AD78-B95F-4FA7-A2A2-D7D76D680D7B-
-
-CCpResource radioQ/Resources/splash/Default@2x~iphone.png DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default@2x~iphone.png
-s368885402.588282
-e368885402.653512
-r1
-xCpResource
-xradioQ/Resources/splash/Default@2x~iphone.png
-xDerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default@2x~iphone.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default@2x~iphone.png63b8969abefcb541^234ea79abefcb541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default@2x~iphone.png000000000080d041^752"CpResource "radioQ/Resources/splash/Default@2x~iphone.png" "DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default@2x~iphone.png"    cd /Users/kall/Documents/radioQ/project    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kall/Documents/radioQ/project/radioQ/Resources/splash/Default@2x~iphone.png" /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app36"FC6BEB82-34EF-45B1-B0DE-30A052F7471C-
-
-CCpResource radioQ/Resources/splash/Default~iphone.png DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default~iphone.png
-s368885402.601365
-e368885402.651732
-r1
-xCpResource
-xradioQ/Resources/splash/Default~iphone.png
-xDerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default~iphone.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Copy DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default~iphone.png34119a9abefcb541^47e9a69abefcb541^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default~iphone.png000000000080d041^743"CpResource "radioQ/Resources/splash/Default~iphone.png" "DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Default~iphone.png"    cd /Users/kall/Documents/radioQ/project    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kall/Documents/radioQ/project/radioQ/Resources/splash/Default~iphone.png" /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app36"B1696A0A-5224-4574-B908-14698FC05CCD-
-
-CCpResource www DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/www
-s368885401.161452
-e368885401.509810
-r1
-xCpResource
-xwww
-xDerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/www
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/www126b2999befcb541^f5838299befcb541^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/www000000000080d041^644"CpResource www DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/www    cd /Users/kall/Documents/radioQ/project    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kall/Documents/radioQ/project/www /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app36"F453D0FD-470D-4CD9-A08B-C7E10EBB9A56-
-
-CGenerateDSYMFile /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app.dSYM /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/radioQ
-s368885412.903711
-e368885413.347083
-r1
-xGenerateDSYMFile
-x/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app.dSYM
-x/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/radioQ
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Generating /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app.dSYMd177e7a4befcb541^05db58a5befcb541^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app.dSYM000000000080d041^787"GenerateDSYMFile DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app.dSYM DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/radioQ    cd /Users/kall/Documents/radioQ/project    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/radioQ -o /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app.dSYM36"39E23F61-4467-486F-9088-2140AEDD9E24-
-
-CLd /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/radioQ normal i386
-s368885410.495434
-e368885412.895642
-r1
-xLd
-x/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/radioQ
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Link /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/radioQ4cfb7ea2befcb541^384be5a4befcb541^---0#0#0#--1888"Ld DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/radioQ normal i386    cd /Users/kall/Documents/radioQ/project    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator -F/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator -filelist /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/radioQ.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/radioQ36"16B9C861-DAB9-40E0-9988-7B7EA5161AE8-
-
-CPhaseScriptExecution "Touch www folder" /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Script-304B58A110DAC018002A0835.sh
-s368885401.017590
-e368885401.140794
-r1
-xPhaseScriptExecution
-xTouch www folder
-x/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Script-304B58A110DAC018002A0835.sh
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Run custom shell script 'Touch www folder'edd30599befcb541^c0e82699befcb541^---0#0#0#--21057"PhaseScriptExecution "Touch www folder" DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Script-304B58A110DAC018002A0835.sh    cd /Users/kall/Documents/radioQ/project    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER kall    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products    setenv BUILD_ROOT /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/4g/znc0vxbj6bbcmzmf58b0dd7r0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/4g/znc0vxbj6bbcmzmf58b0dd7r0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/4g/znc0vxbj6bbcmzmf58b0dd7r0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH radioQ.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/kall/Documents/CordovaLib    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH radioQ.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/radioQ.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME radioQ.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH radioQ.app/Executables    setenv EXECUTABLE_FOLDER_PATH radioQ.app    setenv EXECUTABLE_NAME radioQ    setenv EXECUTABLE_PATH radioQ.app/radioQ    setenv FILE_LIST /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH radioQ.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME radioQ.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER radioQ/radioQ-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/include\" \"/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/usr/local/lib/include\" \"/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/UninstalledProducts/include\" \"/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE radioQ/radioQ-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH radioQ.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH radioQ.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/radioQ.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER kall    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/radioQ.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH radioQ.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/radioQ-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal/i386/radioQ.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH radioQ.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11E53    setenv MAC_OS_X_VERSION_ACTUAL 1074    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0704    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Objects-normal    setenv OBJROOT /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH radioQ.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/PkgInfo    setenv PKGINFO_PATH radioQ.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 50100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH radioQ.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH radioQ.app/PrivateHeaders    setenv PRODUCT_NAME radioQ    setenv PRODUCT_SETTINGS_PATH /Users/kall/Documents/radioQ/project/radioQ/radioQ-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT radioQ    setenv PROJECT_DERIVED_FILE_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/DerivedSources    setenv PROJECT_DIR /Users/kall/Documents/radioQ/project    setenv PROJECT_FILE_PATH /Users/kall/Documents/radioQ/project/radioQ.xcodeproj    setenv PROJECT_NAME radioQ    setenv PROJECT_TEMP_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build    setenv PUBLIC_HEADERS_FOLDER_PATH radioQ.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH radioQ.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk    setenv SDK_NAME iphonesimulator5.1    setenv SDK_PRODUCT_BUILD_VERSION 9B176    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH radioQ.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/PrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH radioQ.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/kall/Documents/radioQ/project    setenv SRCROOT /Users/kall/Documents/radioQ/project    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME radioQ    setenv TARGET_BUILD_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator    setenv TARGET_NAME radioQ    setenv TARGET_TEMP_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build    setenv TEMP_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build    setenv TEMP_FILES_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build    setenv TEMP_FILE_DIR /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build    setenv TEMP_ROOT /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH radioQ.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER kall    setenv USER_APPS_DIR /Users/kall/Applications    setenv USER_LIBRARY_DIR /Users/kall/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH radioQ.app/version.plist    setenv VERSION_INFO_BUILDER kall    setenv VERSION_INFO_FILE radioQ_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:radioQ  PROJECT:radioQ-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME radioQ.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4F1003    setenv XCODE_VERSION_ACTUAL 0441    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0440    setenv YACC yacc    /bin/sh -c /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/Script-304B58A110DAC018002A0835.sh36"AFF28B8D-4013-4AE2-BC06-072BBCD2A8B3-
-
-CProcessInfoPlistFile /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Info.plist radioQ/radioQ-Info.plist
-s368885400.993308
-e368885401.008739
-r1
-xProcessInfoPlistFile
-x/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Info.plist
-xradioQ/radioQ-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Process radioQ/radioQ-Info.plistf165fe98befcb541^d74c0299befcb541^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/kall/Documents/radioQ/project/radioQ/radioQ-Info.plist0000000000000000^783"ProcessInfoPlistFile DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Info.plist radioQ/radioQ-Info.plist    cd /Users/kall/Documents/radioQ/project    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility radioQ/radioQ-Info.plist -genpkginfo /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app/Info.plist36"43FC0B2F-491E-4F75-BCFB-79B10A630917-
-
-CProcessPCH /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/PrecompiledHeaders/radioQ-Prefix-bouowjabtmqczadhnngowrqsilxu/radioQ-Prefix.pch.pth radioQ/radioQ-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s368885402.661796
-e368885410.190795
-r1
-xProcessPCH
-x/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/PrecompiledHeaders/radioQ-Prefix-bouowjabtmqczadhnngowrqsilxu/radioQ-Prefix.pch.pth
-xradioQ/radioQ-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile radioQ/radioQ-Prefix.pch6496a99abefcb541^fdd830a2befcb541^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/kall/Documents/radioQ/project/radioQ/radioQ-Prefix.pch0000000000000000^3826"ProcessPCH DerivedData/radioQ/Build/Intermediates/PrecompiledHeaders/radioQ-Prefix-bouowjabtmqczadhnngowrqsilxu/radioQ-Prefix.pch.pth radioQ/radioQ-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kall/Documents/radioQ/project    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/radioQ-generated-files.hmap -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/radioQ-own-target-headers.hmap -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/radioQ-all-target-headers.hmap -iquote /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/radioQ-project-headers.hmap -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/include -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/usr/local/lib/include -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/UninstalledProducts/include -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/DerivedSources/i386 -I/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/radioQ.build/Debug-iphonesimulator/radioQ.build/DerivedSources -F/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/PrecompiledHeaders/radioQ-Prefix-bouowjabtmqczadhnngowrqsilxu/radioQ-Prefix.pch.dia -c /Users/kall/Documents/radioQ/project/radioQ/radioQ-Prefix.pch -o /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/PrecompiledHeaders/radioQ-Prefix-bouowjabtmqczadhnngowrqsilxu/radioQ-Prefix.pch.pth -MMD -MT dependencies -MF /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Intermediates/PrecompiledHeaders/radioQ-Prefix-bouowjabtmqczadhnngowrqsilxu/radioQ-Prefix.pch.d36"A669750F-BD39-4501-97F4-B98ECBA88551-
-
-CProcessPCH /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Index/PrecompiledHeaders/radioQ-Prefix-bcfjndudysobjjeobgashetofjmb_ast/radioQ-Prefix.pch.pth radioQ/radioQ-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CTouch /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app
-s368885413.355453
-e368885413.386126
-r1
-xTouch
-x/Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Touch /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.appc51d5ba5befcb541^ecda62a5befcb541^---0#0#0#--500"Touch DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app    cd /Users/kall/Documents/radioQ/project    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/kall/Documents/radioQ/project/DerivedData/radioQ/Build/Products/Debug-iphonesimulator/radioQ.app36"7E90E794-106E-47BD-9E69-4D118F6C15A9-
-
