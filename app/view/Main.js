@@ -50,7 +50,7 @@ Ext.define("radioQ.view.Main", {
                     },
                     {
 	                    html: 
-                        '<div style="text-align:center;"><img src="resources/images/q.jpg" /><h1>Playlist (ö)</h1></div>'
+                        '<div style="text-align:center;"><img src="resources/images/q.jpg" /></div>'
                      ,
 	                    styleHtmlContent: true
                     }
@@ -114,7 +114,7 @@ Ext.define("radioQ.view.Main", {
                     },
                     {
 	                    html: 
-                        '<div><iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F2220217"></iframe></div>'
+                        '<div><iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F5725902"></iframe></div>'
                      ,
 	                    styleHtmlContent: true
                     }
@@ -138,7 +138,7 @@ Ext.define("radioQ.view.Main", {
                         {
                             xtype: 'fieldset',
                             title: 'Mail an Radio Q',
-                            instructions: 'E-Mail Adresse andgeben wenn eine Antwot gewünscht wird',
+                            instructions: 'E-Mail Adresse angeben wenn eine Antwort gewünscht wird',
                             items: [
                                 {
                                     xtype: 'textfield',
